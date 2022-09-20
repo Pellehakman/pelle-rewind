@@ -1,0 +1,16 @@
+@use 'variables';
+
+
+.match-container{
+    @include variables.flexContainer(row);
+    justify-content: space-between;
+    align-items: center;
+    background-color: variables.$white-bg;
+    
+}
+
+.match-date-container{
+    @include variables.flexContainer();
+    align-items: center;
+
+}
