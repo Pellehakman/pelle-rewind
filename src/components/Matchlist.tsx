@@ -1,5 +1,5 @@
 import '../styles/matchlist.scss'
-import Match from './Match'
+import Match from './DisplayMatch'
 
 export default function Matchlist() {
     return(

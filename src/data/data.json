@@ -1,0 +1,34 @@
+{
+    "matchData": [
+        {   "matchId": 1,
+            "winner": "win",
+            "matchName": "ERANGEL",
+            "date": "2022/10/21",
+            "time": "20:41"
+            
+        },
+        {   "matchId": 2,
+            "winner": "loose",
+            "matchName": "MIRAMAR",
+            "date": "2022/10/21",
+            "time": "22:21"
+            
+        },
+        {   "matchId": 3,
+            "winner": "win",
+            "matchName": "PARAMO",
+            "date": "2022/10/21",
+            "time": "20:41"
+            
+        },
+        {   "matchId": 4,
+            "winner": "loose",
+            "matchName": "TAEGO",
+            "date": "2022/10/21",
+            "time": "22:21"
+            
+        }
+        
+
+    ]  
+}
