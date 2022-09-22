@@ -1,4 +1,4 @@
-import Matchlist from '../components/Matchlist'
+import DisplayMatchlist from '../components/Match-Grid/DisplayMatchList'
 import '../styles/home.scss'
 
 export default function Home() { 
@@ -8,7 +8,7 @@ export default function Home() {
        <section className='home-container'>
         
 
-        <Matchlist />
+        <DisplayMatchlist />
 
 
        </section>

@@ -1,6 +1,5 @@
 @use 'variables';
 
-
 .match{
     @include variables.flexContainer(row);
     justify-content: space-between;
