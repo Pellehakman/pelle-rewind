@@ -1,14 +1,10 @@
-import create from 'zustand'
+import { configureStore } from "@reduxjs/toolkit";
+import { rootReducer } from "./features/rootReducer";
 
-interface BearState {
-  people: string
-  increase: (by: number) => void
-}
+const store = configureStore({
+    reducer: rootReducer
+})
 
-const useStore = create<BearState>()((set) => ({
-  people: 'pelle',
-  increase: (by) => set((state) => ({ people: state.people + by })),
-}))
-
-
-export default useStore
+export type RootState = ReturnType<typeof store.getState>
+export type AppDispatch = typeof store.dispatch
+export { store }

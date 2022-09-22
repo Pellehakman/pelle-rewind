@@ -1,18 +1,14 @@
-import {useState} from 'react'
-import '../../styles/DisplayMatchList.scss'
-import DisplayMatch from './DisplayMatch'
-import { useSelector } from 'react-redux'
-import {Match} from '../../models/data'
-import Input from '../Input'
 
-import useStore from '../../store'
+import '../../styles/DisplayMatchList.scss'
+import DisplayMatch from './SmallMatchCard'
+import { useSelector } from 'react-redux'
+import { RootState } from '../../store'
+import BigMatchCard from './BigMatchCard/BigMatchCard'
 
 export default function DisplayMatchList(){
-    const people = useStore(state => state.people)
+    const matches = useSelector((state: RootState) => state.matches)
 
-    // const matches:Match[] = useSelector((state: RootState) => state.macthes);
 
-    // const singleMatch = matches.map((match) => <DisplayMatch  />);
 
     return(
         <div className='matchlist-container'>
@@ -21,10 +17,16 @@ export default function DisplayMatchList(){
                     <header>MATCHES</header>
                     <button className='add-btn'>ADD MATCH</button>
                 </div>
-            <Input />
-<p>{people}</p>
+                
 
-              
+                {matches.map(match => (
+                    <DisplayMatch key={match.matchId} match={match} />
+                    
+
+            
+            ))}
+                
+       
             </section>
 
 
