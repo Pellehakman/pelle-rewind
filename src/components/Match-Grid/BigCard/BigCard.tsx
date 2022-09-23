@@ -7,18 +7,19 @@ import { json } from 'react-router-dom';
 
 
 interface BigCardProps{
-    match: Match
-    teams: object
+    match: Match<string>
+   
+   
     
 }
 const BigCard = ({ match }: BigCardProps) => {
 
+ 
 
-
-const data = match.teams[0].team
+const data = match.teams[0].participants[0]['player-2'][0].name
 console.log(data)
 
-// const result = Object.keys(match.teams).map((d: string) => `${d} - ${match.teams[d as keyof typeof match.teams]}`)
+
 
 
 

@@ -4,7 +4,9 @@ export interface Match {
     date: string;
     time: string;
     matchId: number;
-    teams: object;
+    teams: string;
+    team: string;
+    participants: string;
     
 };
 
