@@ -4,25 +4,28 @@
             "winner": "win",
             "matchName": "ERANGEL",
             "date": "2022/10/21",
-            "time": "20:41",
-            "players": [{
-                "roster": "blue",
-                "participants": [{
-                    "playerOne": "PHAWKMAN",
-                    "playerTwo": "TGLTN",
-                    "playerThree": "HWINN",
-                    "playerFour": "M1ME"
-                    
-                    
-
-                }]
-               
-            }]
-
-
-        }
-      
-
-
+            "time": "20:41"
+         },
+         {
+            "matchId": 2,
+            "winner": "win",
+            "matchName": "ERANGEL",
+            "date": "2022/10/21",
+            "time": "20:41"
+         },
+         {
+            "matchId": 3,
+            "winner": "win",
+            "matchName": "ERANGEL",
+            "date": "2022/10/21",
+            "time": "20:41"
+         },
+         {
+            "matchId": 4,
+            "winner": "win",
+            "matchName": "ERANGEL",
+            "date": "2022/10/21",
+            "time": "20:41"
+         }
     ]
 }

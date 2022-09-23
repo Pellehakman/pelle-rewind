@@ -10,14 +10,7 @@ interface BigCardProps{
 }
 const BigCard = ({ match }: BigCardProps) => {
 
-
-
-
-        
-        
-       
-
-    
+   
     return (
         <section className='big-match-card-container' >
             <p>{match.matchName}</p>

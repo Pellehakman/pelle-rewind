@@ -3,6 +3,7 @@
 .display-match-container{
     height: 15rem;
     background-color: rgb(55, 74, 142);
+    transition: all 1s;
 }
 
 
@@ -14,13 +15,15 @@
     background-color: azure;
     
     
+    
+    
 }
 
 .matches-container{
     // overflow-y: scroll;
     flex: 2;
     background-color: rgb(143, 96, 96);
-    
+   
 }
 
 .stats-container{

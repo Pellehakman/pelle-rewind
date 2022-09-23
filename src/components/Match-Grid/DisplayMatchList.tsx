@@ -1,9 +1,9 @@
 
 import '../../styles/DisplayMatchList.scss'
-import DisplayMatch from './SmallMatchCard'
+import SmallCard from './SmallCard'
 import { useSelector } from 'react-redux'
 import { RootState } from '../../store'
-import BigMatchCard from './BigMatchCard/BigMatchCard'
+
 
 export default function DisplayMatchList(){
     const matches = useSelector((state: RootState) => state.matches)
@@ -20,7 +20,7 @@ export default function DisplayMatchList(){
                 
 
                 {matches.map(match => (
-                    <DisplayMatch key={match.matchId} match={match} />
+                    <SmallCard key={match.matchId} match={match} />
                     
 
             
