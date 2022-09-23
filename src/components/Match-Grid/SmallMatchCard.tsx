@@ -32,7 +32,7 @@ return(
             <p> {match.winner} </p>
             <button className='btn-card' onClick={handleOverlay}>Läs Mer</button>
             {overlay && 
-                <BigMatchCard/>            
+                <BigMatchCard match={match}/>            
             }
 			
 		</section>
