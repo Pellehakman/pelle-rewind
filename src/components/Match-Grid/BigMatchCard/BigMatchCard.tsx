@@ -1,14 +1,18 @@
 
-import '../../../styles/BigMatchCard.scss'
+import '../../../styles/BigCard.scss'
 
 import { Match } from '../../../models/data'
+
+
 
 interface BigCardProps{
     match: Match
 }
+const BigCard = ({ match }: BigCardProps) => {
 
-    const BigMatchCard = ({ match }: BigCardProps) => {
-       
+
+
+
         
         
        
@@ -16,11 +20,9 @@ interface BigCardProps{
     
     return (
         <section className='big-match-card-container' >
-            {/* HÄR SLUTATE DU IGÅR */}
-            {/* {match.map((item, i) => (
-          <div key={i}>{item}</div> */}
+            <p>{match.matchName}</p>
            
         </section>
     )
 };
-export default BigMatchCard
+export default BigCard

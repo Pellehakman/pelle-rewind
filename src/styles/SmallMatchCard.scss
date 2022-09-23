@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: variables.$white-bg;
-    margin-bottom: 1rem
+    
     
     
 }
@@ -14,4 +14,8 @@
     @include variables.flexContainer();
     align-items: center;
 
+}
+
+.small-overlay{
+    @include variables.flexContainer(row);
 }
