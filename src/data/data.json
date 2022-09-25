@@ -11,172 +11,80 @@
                "team": "blue",
                "participants": [
                   {
-                     "player-1": [
+                     "player1": [
                         {
                            "name": "TGLTN",
                            "kills": 40,
-                           "deaths": 12
-                        }
-                     ],
-                     "player-2": [
-                        {
-                           "name": "Phawkman",
-                           "kills": 25,
-                           "deaths": 16
-                        }
-                     ],
-                     "player-3": [
-                        {
-                           "name": "M1ME",
-                           "kills": 37,
-                           "deaths": 11
-                        }
-                     ],
-                     "player-4": [
-                        {
-                           "name": "SHRIMZY",
-                           "kills": 30,
-                           "deaths": 13
+                           "deaths": 35
                         }
                      ]
+                     
+                  }
+               ]
+            },
+            {
+               "team": "red",
+               "participants": [
+                  {
+                     "player1": [
+                        {
+                           "name": "SHRIMZY",
+                           "kills": 35,
+                           "deaths": 40
+                        }
+                     ]
+                    
+                    
+                    
                   }
                ]
             }
+
          ]
       },
       {
          "matchId": 2,
-         "winner": "loose",
-         "matchName": "VIKENDI",
-         "date": "2022/10/21",
-         "time": "22:11",
-         "teams": [
-            {
-               "team": "blue",
-               "participants": [
-                  {
-                     "player-1": [
-                        {
-                           "name": "TGLTN",
-                           "kills": 40,
-                           "deaths": 12
-                        }
-                     ],
-                     "player-2": [
-                        {
-                           "name": "HWINN",
-                           "kills": 25,
-                           "deaths": 16
-                        }
-                     ],
-                     "player-3": [
-                        {
-                           "name": "M1ME",
-                           "kills": 37,
-                           "deaths": 11
-                        }
-                     ],
-                     "player-4": [
-                        {
-                           "name": "SHRIMZY",
-                           "kills": 30,
-                           "deaths": 13
-                        }
-                     ]
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "matchId": 3,
-         "winner": "loose",
-         "matchName": "MIRAMAR",
-         "date": "2022/10/21",
-         "time": "22:11",
-         "teams": [
-            {
-               "team": "blue",
-               "participants": [
-                  {
-                     "player-1": [
-                        {
-                           "name": "TGLTN",
-                           "kills": 40,
-                           "deaths": 12
-                        }
-                     ],
-                     "player-2": [
-                        {
-                           "name": "HWINN",
-                           "kills": 25,
-                           "deaths": 16
-                        }
-                     ],
-                     "player-3": [
-                        {
-                           "name": "M1ME",
-                           "kills": 37,
-                           "deaths": 11
-                        }
-                     ],
-                     "player-4": [
-                        {
-                           "name": "SHRIMZY",
-                           "kills": 30,
-                           "deaths": 13
-                        }
-                     ]
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "matchId": 4,
          "winner": "win",
-         "matchName": "PARAMO",
+         "matchName": "ERANGEL",
          "date": "2022/10/21",
-         "time": "22:11",
+         "time": "20:41",
          "teams": [
             {
                "team": "blue",
                "participants": [
                   {
-                     "player-1": [
-                        {
-                           "name": "TGLTN",
-                           "kills": 40,
-                           "deaths": 12
-                        }
-                     ],
-                     "player-2": [
+                     "player1": [
                         {
                            "name": "HWINN",
-                           "kills": 25,
-                           "deaths": 16
-                        }
-                     ],
-                     "player-3": [
-                        {
-                           "name": "M1ME",
-                           "kills": 37,
-                           "deaths": 11
-                        }
-                     ],
-                     "player-4": [
-                        {
-                           "name": "SHRIMZY",
-                           "kills": 30,
-                           "deaths": 13
+                           "kills": 40,
+                           "deaths": 35
                         }
                      ]
+                     
+                  }
+               ]
+            },
+            {
+               "team": "red",
+               "participants": [
+                  {
+                     "player1": [
+                        {
+                           "name": "M1ME",
+                           "kills": 35,
+                           "deaths": 40
+                        }
+                     ]
+                    
+                    
+                    
                   }
                ]
             }
+
          ]
       }
-      
+
 
    ]
 }
