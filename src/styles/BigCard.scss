@@ -3,7 +3,7 @@
 .big-match-card-container{
     @include variables.flexContainer(row);
 
-    transition: all 1s;
+    
     height: 10rem;
     width: 100%;
     background-color: rgb(14, 189, 14);

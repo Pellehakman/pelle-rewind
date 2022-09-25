@@ -5,15 +5,11 @@ interface BigCardProps{
     match: Match
 }
 const BigCard = ({ match }: BigCardProps) => {
-    const handlePlayer:  (e:any) => void = (e:any) => {
+    
+    const handlePlayer:  () => void = () => {
         console.log('you clicked', playerOne)
        
     }
-
-
-
-
-
 
 // --------------- TEAM ONE START --------------- //
 
