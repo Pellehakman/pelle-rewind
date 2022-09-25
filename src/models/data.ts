@@ -13,4 +13,7 @@ export interface Match {
 
 
 
-
+export interface Player {
+    playerName: string;
+    
+};

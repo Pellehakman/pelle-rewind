@@ -1,4 +1,5 @@
 import DisplayMatchlist from '../components/Match-Grid/DisplayMatchList'
+
 import '../styles/home.scss'
 
 export default function Home() { 
@@ -9,6 +10,7 @@ export default function Home() {
         
 
         <DisplayMatchlist />
+       
 
 
        </section>

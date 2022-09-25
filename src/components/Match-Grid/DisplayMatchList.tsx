@@ -25,6 +25,7 @@ export default function DisplayMatchList(){
                     <header>MATCHES</header>
                     <button onClick={handleAddMatch} className='add-btn'>ADD MATCH</button>
                 </div>
+                
                 {overlay && 
                    <AddMatch />
                 }
