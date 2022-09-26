@@ -8,12 +8,5 @@ export interface Match {
     team: any;
     participants: any;
     
-    
 };
 
-
-
-export interface Player {
-    playerName: string;
-    
-};
