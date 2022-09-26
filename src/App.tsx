@@ -4,7 +4,9 @@ import Nav from './components/Nav'
 import Home from './views/Home'
 import Footer from './components/Footer'
 
+
 function App() {
+
 
   return (
     <div className="app">
