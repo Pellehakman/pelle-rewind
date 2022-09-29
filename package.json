@@ -2,7 +2,7 @@
   "name": "pelle-rewind",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
+<<<<<<< HEAD
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "nedb": "^1.8.0",
     "nedb-promise": "^2.0.1",
+=======
+    "mongodb": "^4.10.0",
+>>>>>>> parent of e6b0c00 (maybe)
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
