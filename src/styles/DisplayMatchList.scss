@@ -14,13 +14,16 @@
     width: 60%;
     background-color: azure;
     
+<<<<<<< HEAD
     
     
     
+=======
+>>>>>>> parent of 85e8e6b (daily redux)
 }
 
 .matches-container{
-    // overflow-y: scroll;
+    
     flex: 2;
     background-color: rgb(143, 96, 96);
    
@@ -32,8 +35,6 @@
 }
 
 .header-container{
-    
-  
     @include variables.flexContainer(row);
     @include variables.headerFont();
     @include variables.columnSize();
