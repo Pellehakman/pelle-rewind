@@ -10,9 +10,12 @@ import Footer from './components/Footer'
 
 function App() {
 
+<<<<<<< HEAD
   
 
 
+=======
+>>>>>>> parent of 5a95cf2 (commit)
   
 
 
